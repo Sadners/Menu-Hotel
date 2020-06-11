@@ -44,6 +44,17 @@
     .col-12 {width: 100%;}
   }
 
+
+  .centro{
+    background-color: blue;
+    width: 100%;
+    max-width: 1390px;
+    min-width: 360;
+    padding: 0 15px;
+    margin: 0 auto;
+
+  }
+
 /*Estilo de la cabecera*/
   .header {
     background-color: black;
@@ -56,14 +67,7 @@
     justify-content: space-between;
   }
 
-  .centro{
-    background-color: blue;
-    width: 100%;
-    max-width: 1390px;
-    padding: 0 15px;
-    margin: 0 auto;
-
-  }
+  
 
   .header .lado-izquierdo{
     background-color: blueviolet;
@@ -81,5 +85,54 @@
   .header .lado-derecho h1{
     font-family: Helvetica;
     font-size: 25px;
+  
+  }
+
+  /*Estilo de la contenedor*/
+  
+  .contenedor{
+    background-color: black;
+    height: 60px;
+  }
+
+  .contenedor .centro{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+
+
+  .menu-filtro .opcion-filtro{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .menu-filtro .opcion-filtro-centro{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+
+
+  .menu-filtro .lado-izquierdo{
+    background-color: blueviolet;
+  }
+
+  .menu-filtro .lado-izquierdo img{
+    height: 25px;
+    width: 25px;
+    margin-right: 8px;
+  }
+
+  .menu-filtro .lado-derecho{
+    background-color: blueviolet;
+  }
+
+  .menu-filtro .lado-derecho h2{
+    font-family: Helvetica;
+    font-size: 15pt;
   
   }
