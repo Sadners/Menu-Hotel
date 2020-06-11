@@ -46,7 +46,7 @@
 
 
   .centro{
-    background-color: blue;
+    background-color: white;
     width: 100%;
     max-width: 1390px;
     min-width: 360;
@@ -55,22 +55,20 @@
 
   }
 
+  
+
 /*Estilo de la cabecera*/
   .header {
     background-color: black;
-    height: 60px;
+    height: auto;
+    width: 100%;
   }
 
   .header .centro{
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-
-  
-
-  .header .lado-izquierdo{
-    background-color: blueviolet;
+    background-color: #61b2e7;
   }
 
   .header .lado-izquierdo img{
@@ -78,29 +76,25 @@
     width: auto;
   }
 
-  .header .lado-derecho{
-    background-color: blueviolet;
-  }
-
   .header .lado-derecho h1{
     font-family: Helvetica;
-    font-size: 25px;
+    font-size: 24pt;
+    color: white;
   
   }
 
-  /*Estilo de la contenedor*/
-  
   .contenedor{
     background-color: black;
     height: 60px;
   }
+
+  /*Estilo del menu Filtro*/
 
   .contenedor .centro{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
   }
-
 
 
   .menu-filtro .opcion-filtro{
@@ -136,3 +130,11 @@
     font-size: 15pt;
   
   }
+
+  /*Estilo de menu*/
+
+  h3{
+    font-family: Helvetica;
+    font-size: 30pt;
+  }
+
