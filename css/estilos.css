@@ -59,7 +59,7 @@
 
 /*Estilo de la cabecera*/
   .header {
-    background-color: black;
+    background-color: #61b2e7;
     height: auto;
     width: 100%;
   }
@@ -83,12 +83,11 @@
   
   }
 
-  .contenedor{
-    background-color: black;
-    height: 60px;
-  }
-
   /*Estilo del menu Filtro*/
+
+  .contenedor{
+    margin-top: 20px;
+  }
 
   .contenedor .centro{
     display: flex;
@@ -101,28 +100,13 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-  }
 
-  .menu-filtro .opcion-filtro-centro{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-
-
-  .menu-filtro .lado-izquierdo{
-    background-color: blueviolet;
   }
 
   .menu-filtro .lado-izquierdo img{
     height: 25px;
     width: 25px;
     margin-right: 8px;
-  }
-
-  .menu-filtro .lado-derecho{
-    background-color: blueviolet;
   }
 
   .menu-filtro .lado-derecho h2{
