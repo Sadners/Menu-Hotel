@@ -24,7 +24,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: blue;
     max-width: 1390px;
     padding: 0 15px;
     margin: 0 auto;
@@ -34,14 +33,12 @@
   .header .lado-izquierdo img{
     height: 50px;
     width: auto;
-    background-color: blueviolet;
   }
 
   .header .lado-derecho h1{
     font-family: Helvetica;
     font-size: 24pt;
     color: white;
-    background-color: blueviolet;
   
   }
 
@@ -51,7 +48,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: red;
     max-width: 1390px;
     padding: 0 10px;
     margin: 0 auto;  
@@ -62,7 +58,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: chartreuse;
 
   }
 
@@ -83,7 +78,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: blue;
     max-width: 1390px;
     padding: 0 15px;
     margin: 0 auto;
@@ -94,4 +88,37 @@
     font-family: Helvetica;
     font-size: 30px;
   }
+
+  /*Menu Bebidas*/
+  .menu-bebidas .centro{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 1390px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .menu-bebidas .lado-izquierdo img{
+    width: 100px;
+    height: auto;
+  }
+
+  .menu-bebidas .lado-derecho h4{
+    font-family: Helvetica;
+    font-size: 16pt;
+    color: black;
+    margin: 20px;
+    margin-bottom: 1px;
+  }
+
+  .menu-bebidas ul{
+    list-style: none;
+    font-size: 12pt;
+    font-family: Helvetica;
+  }
+
+
 
